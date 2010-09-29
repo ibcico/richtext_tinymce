@@ -26,12 +26,13 @@
 		public function modifyTextarea($context){
 			if($context['field']->get('formatter') != 'tinymce') return;
 			
-			
-			if(!defined('__TINYMCE_SCRIPTS_IN_HEAD__') || !__TINYMCE_SCRIPTS_IN_HEAD__){
+									
+			if(!defined('__TINYMCE_SCRIPTS_IN_HEAD__') || !__TINYMCE_SCRIPTS_IN_HEAD__ ){
 				define_safe('__TINYMCE_SCRIPTS_IN_HEAD__', true);
 			
 				Administration::instance()->Page->addScriptToHead(URL . '/extensions/richtext_tinymce/lib/tiny_mce.js', 200);
 				Administration::instance()->Page->addScriptToHead(URL . '/extensions/richtext_tinymce/assets/applyMCE.js', 210);
+				Administration::instance()->Page->addScriptToHead(URL . '/extensions/richtext_tinymce/lib/plugins/tinybrowser/tb_tinymce.js.php', 220);
 			}
 			
 			$context['textarea']->setAttribute('id', trim($context['textarea']->getAttribute('id') . ' ' . $context['field']->get('element_name')));

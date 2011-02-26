@@ -11,16 +11,9 @@ tinyMCE.init({
 	editor_selector                : "tinymce",
 	theme_advanced_toolbar_location: "top",
 	theme_advanced_toolbar_align   : "left",
-	theme_advanced_buttons1        : "bold,italic,underline,|,formatselect,|,bullist,numlist,|,blockquote,sub,sup,|,link,unlink,image,|,code,cleanup",
+	theme_advanced_buttons1        : "bold,italic,underline,|,blockquote,sub,sup,|,code",
 	theme_advanced_buttons2        : "",
 	theme_advanced_buttons3        : "",
 	entities                       : "",
-	file_browser_callback          : "tinyBrowser",
-	plugins                        : "media"
-});
-
-DOM.Event.addListener(window, "load", function() {
-	DOM.select("div[class^=mceeditor]").forEach(function(div) {
-		div.style.marginTop = "2px"; // Fix styles
-	});
+	valid_elements                 : "p,strong/b,em/i,sup,sub"
 });

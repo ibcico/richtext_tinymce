@@ -32,7 +32,7 @@ jQuery(document).ready(function() {
 		
 		valid_elements : 'strong/b,p,br',
 		
-		entities: 'ndash',
+		entities: 'ndash,mdash',
 	});
 	
 });

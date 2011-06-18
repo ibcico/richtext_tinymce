@@ -14,21 +14,25 @@ jQuery(document).ready(function() {
 		plugins: '',
 		skin: 'symphony',
 
-		theme_advanced_buttons1 : 'formatselect,bold,italic,underline,|,bullist,numlist,outdent,indent,|,blockquote,link,unlink,image,|,copy,paste,pastetext,pasteword,|,undo,redo,|,cleanup,code',
+		theme_advanced_buttons1 : 'bold,italic,underline,|,bullist,numlist,|,blockquote,link,unlink,image,|,copy,paste,pastetext,pasteword,|,undo,redo,|,cleanup,code',
 		theme_advanced_buttons2 : '',
 		theme_advanced_buttons3 : '',
 		theme_advanced_buttons4 : '',
 		theme_advanced_toolbar_location : 'top',
 		theme_advanced_toolbar_align : 'left',
 		theme_advanced_resizing : true,
-
+		
 		template_external_list_url : 'lists/template_list.js',
 		external_link_list_url : 'lists/link_list.js',
 		external_image_list_url : 'lists/image_list.js',
 		media_external_list_url : 'lists/media_list.js',
 		
-		entities: ''
+		force_br_newlines : true,
+		force_p_newlines : false,
 		
+		valid_elements : 'strong/b,p,br',
+		
+		entities: 'ndash',
 	});
 	
 });

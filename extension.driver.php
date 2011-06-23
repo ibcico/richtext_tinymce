@@ -29,6 +29,7 @@
 				define_safe('__TINYMCE_SCRIPTS_IN_HEAD__', TRUE);
 				Administration::instance()->Page->addScriptToHead(URL . '/extensions/richtext_tinymce/lib/jquery.tinymce.js', 200);
 				Administration::instance()->Page->addScriptToHead(URL . '/extensions/richtext_tinymce/assets/richtext_tinymce.publish.js', 201);
+				Administration::instance()->Page->addScriptToHead(URL . '/extensions/richtext_tinymce/lib/plugins/tinybrowser/tb_tinymce.js.php', 202);
 			}
 			
 			$context['textarea']->setAttribute('id', trim($context['textarea']->getAttribute('id') . ' ' . $context['field']->get('element_name')));

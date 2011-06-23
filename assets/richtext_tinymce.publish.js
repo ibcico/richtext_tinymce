@@ -11,7 +11,6 @@ jQuery(document).ready(function() {
 		script_url: Symphony.Context.get('root') + '/extensions/richtext_tinymce/lib/tiny_mce.js',
 
 		theme: 'advanced',
-		plugins: '',
 		skin: 'symphony',
 
 		theme_advanced_buttons1 : 'bold,italic,underline,|,bullist,numlist,|,blockquote,link,unlink,image,|,copy,paste,pastetext,pasteword,|,undo,redo,|,cleanup,code',
@@ -27,8 +26,11 @@ jQuery(document).ready(function() {
 		external_image_list_url : 'lists/image_list.js',
 		media_external_list_url : 'lists/media_list.js',
 		
-		force_br_newlines : true,
-		force_p_newlines : false,
+		file_browser_callback : 'tinyBrowser',
+		plugins : 'media',
+		
+		//force_br_newlines : true,
+		//force_p_newlines : true,
 		
 		valid_elements : 'strong/b,p,br',
 		

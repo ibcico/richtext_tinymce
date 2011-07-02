@@ -29,10 +29,10 @@ jQuery(document).ready(function() {
 		file_browser_callback : 'tinyBrowser',
 		plugins : 'media',
 		
-		//force_br_newlines : true,
-		//force_p_newlines : true,
+		force_br_newlines : true,
+		force_p_newlines : false,
 		
-		valid_elements : 'strong/b,p,br',
+		valid_elements : 'strong/b,p,br,ul,li,a',
 		
 		entities: 'ndash,mdash',
 	});

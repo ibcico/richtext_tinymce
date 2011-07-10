@@ -32,7 +32,7 @@ jQuery(document).ready(function() {
 		//force_br_newlines : true,
 		//force_p_newlines : true,
 		
-		valid_elements : 'strong/b,p,br',
+		valid_elements : 'a,strong/b,p,br',
 		
 		entities: 'ndash,mdash',
 	});

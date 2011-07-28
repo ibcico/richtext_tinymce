@@ -28,7 +28,8 @@
 .symphonySkin .mceStatusbar a:hover {text-decoration:underline}
 .symphonySkin table.mceToolbar {margin-left:3px}
 .symphonySkin span.mceIcon, .symphonySkin img.mceIcon {display:block; width:20px; height:20px}
-.symphonySkin .mceIcon {background:url(../../img/icons.gif) no-repeat 20px 20px}
+body.inline.subsection form label span {background: none; border: none;}
+.symphonySkin .mceIcon { background-color: none; background-image :url(../../img/icons.gif) !important; background-repeat: no-repeat; background-position: 20px 20px;}
 .symphonySkin td.mceCenter {text-align:center;}
 .symphonySkin td.mceCenter table {margin:0 auto; text-align:left;}
 .symphonySkin td.mceRight table {margin:0 0 0 auto;}
@@ -121,93 +122,93 @@
 .symphonySkin .mce_h6 span.mceText {font-weight:bolder; font-size: .75em}
 
 /* Theme */
-.symphonySkin span.mce_bold {background-position:0 0}
-.symphonySkin span.mce_italic {background-position:-60px 0}
-.symphonySkin span.mce_underline {background-position:-140px 0}
-.symphonySkin span.mce_strikethrough {background-position:-120px 0}
-.symphonySkin span.mce_undo {background-position:-160px 0}
-.symphonySkin span.mce_redo {background-position:-100px 0}
-.symphonySkin span.mce_cleanup {background-position:-40px 0}
-.symphonySkin span.mce_bullist {background-position:-20px 0}
-.symphonySkin span.mce_numlist {background-position:-80px 0}
-.symphonySkin span.mce_justifyleft {background-position:-460px 0}
-.symphonySkin span.mce_justifyright {background-position:-480px 0}
-.symphonySkin span.mce_justifycenter {background-position:-420px 0}
-.symphonySkin span.mce_justifyfull {background-position:-440px 0}
-.symphonySkin span.mce_anchor {background-position:-200px 0}
-.symphonySkin span.mce_indent {background-position:-400px 0}
-.symphonySkin span.mce_outdent {background-position:-540px 0}
-.symphonySkin span.mce_link {background-position:-500px 0}
-.symphonySkin span.mce_unlink {background-position:-640px 0}
-.symphonySkin span.mce_sub {background-position:-600px 0}
-.symphonySkin span.mce_sup {background-position:-620px 0}
-.symphonySkin span.mce_removeformat {background-position:-580px 0}
-.symphonySkin span.mce_newdocument {background-position:-520px 0}
-.symphonySkin span.mce_image {background-position:-380px 0}
-.symphonySkin span.mce_help {background-position:-340px 0}
-.symphonySkin span.mce_code {background-position:-260px 0}
-.symphonySkin span.mce_hr {background-position:-360px 0}
-.symphonySkin span.mce_visualaid {background-position:-660px 0}
-.symphonySkin span.mce_charmap {background-position:-240px 0}
-.symphonySkin span.mce_paste {background-position:-560px 0}
-.symphonySkin span.mce_copy {background-position:-700px 0}
-.symphonySkin span.mce_cut {background-position:-680px 0}
-.symphonySkin span.mce_blockquote {background-position:-220px 0}
-.symphonySkin .mce_forecolor span.mceAction {background-position:-720px 0}
-.symphonySkin .mce_backcolor span.mceAction {background-position:-760px 0}
-.symphonySkin span.mce_forecolorpicker {background-position:-720px 0}
-.symphonySkin span.mce_backcolorpicker {background-position:-760px 0}
+.symphonySkin span.mce_bold {background-position:0 0 !important}
+.symphonySkin span.mce_italic {background-position:-60px 0 !important}
+.symphonySkin span.mce_underline {background-position:-140px 0 !important}
+.symphonySkin span.mce_strikethrough {background-position:-120px 0 !important}
+.symphonySkin span.mce_undo {background-position:-160px 0 !important}
+.symphonySkin span.mce_redo {background-position:-100px 0 !important}
+.symphonySkin span.mce_cleanup {background-position:-40px 0 !important}
+.symphonySkin span.mce_bullist {background-position:-20px 0 !important}
+.symphonySkin span.mce_numlist {background-position:-80px 0 !important}
+.symphonySkin span.mce_justifyleft {background-position:-460px 0 !important}
+.symphonySkin span.mce_justifyright {background-position:-480px 0 !important}
+.symphonySkin span.mce_justifycenter {background-position:-420px 0 !important}
+.symphonySkin span.mce_justifyfull {background-position:-440px 0 !important}
+.symphonySkin span.mce_anchor {background-position:-200px 0 !important}
+.symphonySkin span.mce_indent {background-position:-400px 0 !important}
+.symphonySkin span.mce_outdent {background-position:-540px 0 !important}
+.symphonySkin span.mce_link {background-position:-500px 0 !important}
+.symphonySkin span.mce_unlink {background-position:-640px 0 !important}
+.symphonySkin span.mce_sub {background-position:-600px 0 !important}
+.symphonySkin span.mce_sup {background-position:-620px 0 !important}
+.symphonySkin span.mce_removeformat {background-position:-580px 0 !important}
+.symphonySkin span.mce_newdocument {background-position:-520px 0 !important}
+.symphonySkin span.mce_image {background-position:-380px 0 !important}
+.symphonySkin span.mce_help {background-position:-340px 0 !important}
+.symphonySkin span.mce_code {background-position:-260px 0 !important}
+.symphonySkin span.mce_hr {background-position:-360px 0 !important}
+.symphonySkin span.mce_visualaid {background-position:-660px 0 !important}
+.symphonySkin span.mce_charmap {background-position:-240px 0 !important}
+.symphonySkin span.mce_paste {background-position:-560px 0 !important}
+.symphonySkin span.mce_copy {background-position:-700px 0 !important}
+.symphonySkin span.mce_cut {background-position:-680px 0 !important}
+.symphonySkin span.mce_blockquote {background-position:-220px 0 !important}
+.symphonySkin .mce_forecolor span.mceAction {background-position:-720px 0 !important}
+.symphonySkin .mce_backcolor span.mceAction {background-position:-760px 0 !important}
+.symphonySkin span.mce_forecolorpicker {background-position:-720px 0 !important}
+.symphonySkin span.mce_backcolorpicker {background-position:-760px 0 !important}
 
 /* Plugins */
-.symphonySkin span.mce_advhr {background-position:-0px -20px}
-.symphonySkin span.mce_ltr {background-position:-20px -20px}
-.symphonySkin span.mce_rtl {background-position:-40px -20px}
-.symphonySkin span.mce_emotions {background-position:-60px -20px}
-.symphonySkin span.mce_fullpage {background-position:-80px -20px}
-.symphonySkin span.mce_fullscreen {background-position:-100px -20px}
-.symphonySkin span.mce_iespell {background-position:-120px -20px}
-.symphonySkin span.mce_insertdate {background-position:-140px -20px}
-.symphonySkin span.mce_inserttime {background-position:-160px -20px}
-.symphonySkin span.mce_absolute {background-position:-180px -20px}
-.symphonySkin span.mce_backward {background-position:-200px -20px}
-.symphonySkin span.mce_forward {background-position:-220px -20px}
-.symphonySkin span.mce_insert_layer {background-position:-240px -20px}
-.symphonySkin span.mce_insertlayer {background-position:-260px -20px}
-.symphonySkin span.mce_movebackward {background-position:-280px -20px}
-.symphonySkin span.mce_moveforward {background-position:-300px -20px}
-.symphonySkin span.mce_media {background-position:-320px -20px}
-.symphonySkin span.mce_nonbreaking {background-position:-340px -20px}
-.symphonySkin span.mce_pastetext {background-position:-360px -20px}
-.symphonySkin span.mce_pasteword {background-position:-380px -20px}
-.symphonySkin span.mce_selectall {background-position:-400px -20px}
-.symphonySkin span.mce_preview {background-position:-420px -20px}
-.symphonySkin span.mce_print {background-position:-440px -20px}
-.symphonySkin span.mce_cancel {background-position:-460px -20px}
-.symphonySkin span.mce_save {background-position:-480px -20px}
-.symphonySkin span.mce_replace {background-position:-500px -20px}
-.symphonySkin span.mce_search {background-position:-520px -20px}
-.symphonySkin span.mce_styleprops {background-position:-560px -20px}
-.symphonySkin span.mce_table {background-position:-580px -20px}
-.symphonySkin span.mce_cell_props {background-position:-600px -20px}
-.symphonySkin span.mce_delete_table {background-position:-620px -20px}
-.symphonySkin span.mce_delete_col {background-position:-640px -20px}
-.symphonySkin span.mce_delete_row {background-position:-660px -20px}
-.symphonySkin span.mce_col_after {background-position:-680px -20px}
-.symphonySkin span.mce_col_before {background-position:-700px -20px}
-.symphonySkin span.mce_row_after {background-position:-720px -20px}
-.symphonySkin span.mce_row_before {background-position:-740px -20px}
-.symphonySkin span.mce_merge_cells {background-position:-760px -20px}
-.symphonySkin span.mce_table_props {background-position:-980px -20px}
-.symphonySkin span.mce_row_props {background-position:-780px -20px}
-.symphonySkin span.mce_split_cells {background-position:-800px -20px}
-.symphonySkin span.mce_template {background-position:-820px -20px}
-.symphonySkin span.mce_visualchars {background-position:-840px -20px}
-.symphonySkin span.mce_abbr {background-position:-860px -20px}
-.symphonySkin span.mce_acronym {background-position:-880px -20px}
-.symphonySkin span.mce_attribs {background-position:-900px -20px}
-.symphonySkin span.mce_cite {background-position:-920px -20px}
-.symphonySkin span.mce_del {background-position:-940px -20px}
-.symphonySkin span.mce_ins {background-position:-960px -20px}
-.symphonySkin span.mce_pagebreak {background-position:0 -40px}
-.symphonySkin span.mce_restoredraft {background-position:-20px -40px}
-.symphonySkin span.mce_spellchecker {background-position:-540px -20px}
+.symphonySkin span.mce_advhr {background-position:-0px -20px !important}
+.symphonySkin span.mce_ltr {background-position:-20px -20px !important}
+.symphonySkin span.mce_rtl {background-position:-40px -20px !important}
+.symphonySkin span.mce_emotions {background-position:-60px -20px !important}
+.symphonySkin span.mce_fullpage {background-position:-80px -20px !important}
+.symphonySkin span.mce_fullscreen {background-position:-100px -20px !important}
+.symphonySkin span.mce_iespell {background-position:-120px -20px !important}
+.symphonySkin span.mce_insertdate {background-position:-140px -20px !important}
+.symphonySkin span.mce_inserttime {background-position:-160px -20px !important}
+.symphonySkin span.mce_absolute {background-position:-180px -20px !important}
+.symphonySkin span.mce_backward {background-position:-200px -20px !important}
+.symphonySkin span.mce_forward {background-position:-220px -20px !important}
+.symphonySkin span.mce_insert_layer {background-position:-240px -20px !important}
+.symphonySkin span.mce_insertlayer {background-position:-260px -20px !important}
+.symphonySkin span.mce_movebackward {background-position:-280px -20px !important}
+.symphonySkin span.mce_moveforward {background-position:-300px -20px !important}
+.symphonySkin span.mce_media {background-position:-320px -20px !important}
+.symphonySkin span.mce_nonbreaking {background-position:-340px -20px !important}
+.symphonySkin span.mce_pastetext {background-position:-360px -20px !important}
+.symphonySkin span.mce_pasteword {background-position:-380px -20px !important}
+.symphonySkin span.mce_selectall {background-position:-400px -20px !important}
+.symphonySkin span.mce_preview {background-position:-420px -20px !important}
+.symphonySkin span.mce_print {background-position:-440px -20px !important}
+.symphonySkin span.mce_cancel {background-position:-460px -20px !important}
+.symphonySkin span.mce_save {background-position:-480px -20px !important}
+.symphonySkin span.mce_replace {background-position:-500px -20px !important}
+.symphonySkin span.mce_search {background-position:-520px -20px !important}
+.symphonySkin span.mce_styleprops {background-position:-560px -20px !important}
+.symphonySkin span.mce_table {background-position:-580px -20px !important}
+.symphonySkin span.mce_cell_props {background-position:-600px -20px !important}
+.symphonySkin span.mce_delete_table {background-position:-620px -20px !important}
+.symphonySkin span.mce_delete_col {background-position:-640px -20px !important}
+.symphonySkin span.mce_delete_row {background-position:-660px -20px !important}
+.symphonySkin span.mce_col_after {background-position:-680px -20px !important}
+.symphonySkin span.mce_col_before {background-position:-700px -20px !important}
+.symphonySkin span.mce_row_after {background-position:-720px -20px !important}
+.symphonySkin span.mce_row_before {background-position:-740px -20px !important}
+.symphonySkin span.mce_merge_cells {background-position:-760px -20px !important}
+.symphonySkin span.mce_table_props {background-position:-980px -20px !important}
+.symphonySkin span.mce_row_props {background-position:-780px -20px !important}
+.symphonySkin span.mce_split_cells {background-position:-800px -20px !important}
+.symphonySkin span.mce_template {background-position:-820px -20px !important}
+.symphonySkin span.mce_visualchars {background-position:-840px -20px !important}
+.symphonySkin span.mce_abbr {background-position:-860px -20px !important}
+.symphonySkin span.mce_acronym {background-position:-880px -20px !important}
+.symphonySkin span.mce_attribs {background-position:-900px -20px !important}
+.symphonySkin span.mce_cite {background-position:-920px -20px !important}
+.symphonySkin span.mce_del {background-position:-940px -20px !important}
+.symphonySkin span.mce_ins {background-position:-960px -20px !important}
+.symphonySkin span.mce_pagebreak {background-position:0 -40px !important}
+.symphonySkin span.mce_restoredraft {background-position:-20px -40px !important}
+.symphonySkin span.mce_spellchecker {background-position:-540px -20px !important}

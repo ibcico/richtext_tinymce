@@ -11,10 +11,13 @@ tinyMCE.init({
 	editor_selector                : "tinymce",
 	theme_advanced_toolbar_location: "top",
 	theme_advanced_toolbar_align   : "left",
-	theme_advanced_buttons1        : "bold,italic,underline,|,formatselect,|,bullist,numlist,|,blockquote,sub,sup,|,link,unlink,image,|,code,cleanup",
+	theme_advanced_buttons1 : 'bold,italic,underline,|,bullist,numlist,|,blockquote,link,unlink,image,|,copy,paste,pastetext,pasteword,|,undo,redo,|,cleanup,code',
 	theme_advanced_buttons2        : "",
 	theme_advanced_buttons3        : "",
-	entities                       : ""
+	force_br_newlines : true,
+	force_p_newlines : false,
+	valid_elements : 'strong/b,p,br,ul,ol,li,a[href]',
+	entities: 'ndash,mdash',
 });
 
 DOM.Event.addListener(window, "load", function() {
